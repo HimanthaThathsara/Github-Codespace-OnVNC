@@ -27,19 +27,19 @@
 </div>
 
 ```
-Browser (vnc.html)
-       |
-< HTTP/WebSocket > (port 6080)
-       |
-  noVNC proxy
-       |
-    < VNC >         (port 5901)
-       |
-  TigerVNC server
-       |
-    < X11 >
-       |
-  XFCE desktop
+													Browser (vnc.html)
+													       |
+													< HTTP/WebSocket > (port 6080)
+													       |
+													  noVNC proxy
+													       |
+													    < VNC >         (port 5901)
+													       |
+													  TigerVNC server
+													       |
+													    < X11 >
+													       |
+													  XFCE desktop
                                               
 ```
 
